@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class PlayerTest {
 
     @Test
-    public void getName() {
+    public void getName() throws Exception {
         String inputValue = "Slava";
         String expectedValue = inputValue;
         final Player player = new Player(inputValue, null);
@@ -18,7 +18,7 @@ public class PlayerTest {
     }
 
     @Test
-    public void getFigure() {
+    public void getFigure() throws Exception {
         Figure inputValue = Figure.X;
         Figure expectedValue = inputValue;
         final Player player = new Player(null, inputValue);
