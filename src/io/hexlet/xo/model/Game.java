@@ -11,4 +11,16 @@ public class Game {
         this.field = field;
         this.name = name;
     }
+
+    public Player[] getPlayers() {
+        return players;
+    }
+
+    public Field getField() {
+        return field;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
